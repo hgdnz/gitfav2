@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto  GitFav" src=".github/preview.jpg" width="100%">
+  <img alt="Projeto  GitFav" src=".github/gitfav2model.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
