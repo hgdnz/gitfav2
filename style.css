@@ -270,6 +270,16 @@ td .remove {
 }
 
 @media (max-width: 468px) {
+  thead tr th:nth-child(1) {
+    border-top-left-radius: 0.4rem;
+    width: auto;
+    padding-left: 2rem;
+  }
+
+  thead tr {
+    align-content: center;
+  }
+
   td.user img {
     display: none;
   }
@@ -290,5 +300,11 @@ td .remove {
 
   table tbody td:nth-child(1) {
     padding-top: 10px;
+  }
+
+  table td:nth-child(1) {
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
   }
 }
