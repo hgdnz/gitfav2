@@ -30,7 +30,6 @@ body {
 header {
   width: 100%;
   margin-top: 2rem;
-  display: flex;
 
   font-family: var(--ff-primary);
   font-weight: 700;
@@ -50,7 +49,12 @@ header {
 
 .search {
   display: flex;
-  margin-left: 22rem;
+}
+
+.searchbar {
+  display: flex;
+  max-width: 112rem;
+  justify-content: space-between;
 }
 
 input {
@@ -230,7 +234,11 @@ td .remove {
   cursor: pointer;
 }
 
-@media (max-width: 770px) {
+table {
+  margin-top: 4rem;
+}
+
+@media (max-width: 870px) {
   header {
     display: flex;
     flex-direction: column;
@@ -239,6 +247,13 @@ td .remove {
 
     padding: 0;
     margin: 0;
+  }
+
+  .searchbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
 
   header img {
@@ -276,6 +291,23 @@ td .remove {
     padding-left: 2rem;
   }
 
+  .search {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+  }
+
+  .searchbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  table {
+    margin-top: 4rem;
+  }
+
   thead tr {
     align-content: center;
   }
@@ -295,7 +327,7 @@ td .remove {
   }
 
   button {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   table tbody td:nth-child(1) {
