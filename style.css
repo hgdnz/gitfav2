@@ -63,7 +63,7 @@ input {
 }
 
 input::placeholder {
-  color: rgb(165, 161, 161);
+  color: rgb(165, 161, 162);
 }
 
 .hide {
